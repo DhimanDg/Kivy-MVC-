@@ -6,6 +6,7 @@ print(f"Current Tip: {tip_model}")
 
 tip_model.bill_amount = 109.45
 tip_model.tip_percent = 0.15
+tip_model.num_people = 4
 print(f"Current Tip: {tip_model}")
 
 try:
