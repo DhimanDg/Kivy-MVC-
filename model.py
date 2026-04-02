@@ -58,7 +58,7 @@ class TipModel:
 
 
     def __str__(self):
-        return f"Bill: ${self.bill_amount}, {self.tip_percent * 100}% tip = {self.tip_amount}"
+        return f"Bill: ${self.bill_amount}, {self.tip_percent * 100}% tip = {self.tip_amount}, total per person = {self.total_per_person}"
 
     
         
